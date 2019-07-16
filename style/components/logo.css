@@ -1,0 +1,19 @@
+.logo {
+    display: inline-block;
+    font-size: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.logo-qoutes {
+    width: 53px;
+    height: 53px;
+    margin-right: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5094f2;
+    border-radius: 50%;
+}

@@ -1,0 +1,15 @@
+.button {
+    font-size: 31px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 13px;
+    border-color: transparent;
+    background-color: #5094f2;
+}
+
+.button span {
+    padding-right: 15px;
+    height: 33px;
+}

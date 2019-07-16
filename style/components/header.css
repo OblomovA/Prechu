@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+
+.header-right {
+    padding-top: 15px;
+}
+
+@media (min-width: 640px) {
+    .header-right {
+        padding-top: 30px;
+    }
+}

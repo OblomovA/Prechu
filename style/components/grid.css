@@ -1,0 +1,19 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.grid > .grid-item {
+    padding: 10px 20px;
+}
+
+.grid-item-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-item-hero > * {
+    padding-left: 100px;
+}
