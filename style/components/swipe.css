@@ -8,3 +8,13 @@
     align-content: center;
     align-items: center;
 }
+
+.swiper-button {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .swiper-button {
+        display: flex;
+    }
+}
