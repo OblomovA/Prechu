@@ -12,11 +12,14 @@ $(document).ready(function(){
         },
     });
 
+    var mySwiper = document.querySelector('.swiper-container').swiper
+        mySwiper.autoplay.stop();
+
     var mySwiper = window.matchMedia("(min-width: 640px)")
     new Swiper('.swiper-container', {
         autoplay: {
             loop: 'true',
-            delay: 2000,
+            delay: 3000,
             disableOnInteraction: 'true',
         },
     });

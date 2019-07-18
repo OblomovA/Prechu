@@ -9,6 +9,7 @@
 
 .nav-mobile {
     position: relative;
+    z-index: 2;
 }
 
 .nav-mobile ul {
@@ -31,7 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 9px; /* Как установить свгэшку посередине без задавания паддинга? У меня не получается */
+    padding-top: 9px;
 }
 
 .nav-mobile ul.is-open {
@@ -42,6 +43,11 @@
     padding: 5px 10px;
     color: #fff;
     background-color: #5094f2;
+}
+
+.nav-mobile li:hover {
+    color: #5094f2;
+    background-color: #fff;
 }
 
 @media (min-width: 640px) {
